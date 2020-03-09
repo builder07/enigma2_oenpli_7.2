@@ -101,7 +101,7 @@ class About(Screen):
 		for x in about.GetIPsFromNetworkInterfaces():
 			AboutText += "\n" + x[0] + ": " + x[1]
 			
-	        AboutText += _("Give thanks: ") + _("Z541154775569: ") + "\n"
+	        AboutText += _("Give thanks") + _("Z541154775569")
 
 		self["AboutScrollLabel"] = ScrollLabel(AboutText)
 		self["key_green"] = Button(_("Translations"))
