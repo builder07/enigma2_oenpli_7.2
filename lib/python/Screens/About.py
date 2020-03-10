@@ -104,6 +104,9 @@ class About(Screen):
 		AboutText += hddinfo + "\n\n" + _("Network Info:")
 		for x in about.GetIPsFromNetworkInterfaces():
 			AboutText += "\n" + x[0] + ": " + x[1]
+
+		AboutText += "\n"
+		AboutText += "\n"
 		
 		AboutText += _("Build Author: ") + about.getBuildAuthor() + "\n"
 		AboutText += _("Donate: ") + about.getDonate() + "\n"
