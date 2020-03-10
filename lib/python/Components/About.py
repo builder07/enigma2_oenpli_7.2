@@ -184,8 +184,11 @@ def GetIPsFromNetworkInterfaces():
 			ifaces.append((iface_name, iface_addr))
 	return ifaces
 
-def GetImageDeveloper():
-	return _("unknown")
+def getBuildAuthor():
+		return _("BlackFish")
+	
+def getDonate():
+		return _("Z541154775569")
 
 # For modules that do "from About import about"
 about = sys.modules[__name__]
