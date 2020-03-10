@@ -51,6 +51,10 @@ class About(Screen):
 		GStreamerVersion = _("GStreamer version: ") + about.getGStreamerVersionString(cpu).replace("GStreamer","")
 		self["GStreamerVersion"] = StaticText(GStreamerVersion)
 		AboutText += GStreamerVersion + "\n"
+		
+	        FFmpegVersion = _("FFmpeg version: ") + about.getFFmpegVersionString()
+		self["FFmpegVersion"] = StaticText(FFmpegVersion)
+		AboutText += FFmpegVersion + "\n"
 
 		AboutText += _("Python version: ") + about.getPythonVersionString() + "\n"
 
@@ -101,7 +105,8 @@ class About(Screen):
 		for x in about.GetIPsFromNetworkInterfaces():
 			AboutText += "\n" + x[0] + ": " + x[1]
 		
-		AboutText += _("Build author") + _("BlackFish")
+		AboutText += "\n" + _("Build author:") + "\n"
+		AboutText += _("BlackFish")
 	        AboutText += _("Give thanks") + _("Z541154775569")
 
 		self["AboutScrollLabel"] = ScrollLabel(AboutText)
