@@ -185,7 +185,7 @@ def GetIPsFromNetworkInterfaces():
 	return ifaces
 
 def getBuildAuthor():
-		return _("BlackFish")
+		return _("Black Fish")
 	
 def getDonate():
 		return _("Z541154775569")
