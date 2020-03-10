@@ -3738,6 +3738,9 @@ msgstr "G"
 msgid "GStreamer version: "
 msgstr "GStreamer: "
 
+msgid "FFmpeg version: "
+msgstr "FFmpeg: "
+
 msgid "GUI Settings"
 msgstr "Настройки GUI"
 
@@ -5138,6 +5141,12 @@ msgstr "ID сети"
 
 msgid "Network Info:"
 msgstr "Информация о сети:"
+
+msgid "Build author:"
+msgstr "Автор сборки:"
+
+msgid "Donate:"
+msgstr "Поблагодарить:"
 
 msgid "Network configuration"
 msgstr "Конфигурация сети"
