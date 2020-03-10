@@ -108,7 +108,9 @@ class About(Screen):
 		AboutText += "\n"
 		AboutText += "\n"
 		
-		AboutText += _("Build author: ") + about.getBuildAuthor() + "\n"
+		AboutText += _("Additional image information: ") + "\n"
+		AboutText += _("Idea: ") + about.getIdea() + "\n"
+		AboutText += _("E-mail:: ") + about.getEmail() + "\n"
 		AboutText += _("Donate: ") + about.getDonate() + "\n"
 
 		self["AboutScrollLabel"] = ScrollLabel(AboutText)
