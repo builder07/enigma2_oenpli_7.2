@@ -11542,3 +11542,8 @@ msgstr " мин"
 # Swap
 msgid "Swap Manager"
 msgstr "Swap Manager"
+
+# Storage device manager
+msgid "Storage device manager"
+msgstr "Диспетчер устройств хранения"
+
