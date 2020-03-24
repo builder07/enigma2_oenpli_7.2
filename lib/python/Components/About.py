@@ -174,5 +174,14 @@ def GetIPsFromNetworkInterfaces():
 			ifaces.append((iface_name, iface_addr))
 	return ifaces
 
+def getIdea():
+		return _("Black Fish")
+
+def getEmail():
+		return _("blackfish.3654@gmail.com")
+	
+def getDonate():
+		return _("Z541154775569")
+
 # For modules that do "from About import about"
 about = sys.modules[__name__]
