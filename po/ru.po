@@ -2284,9 +2284,6 @@ msgstr "Не удалось настроить необходимые катал
 msgid "Country"
 msgstr "Страна"
 
-msgid "Cover dashed flickering line for this service"
-msgstr "скрыть мигающую строку для этого сервиса"
-
 msgid "Create DVD-ISO"
 msgstr "Создать DVD-ISO"
 
@@ -4818,9 +4815,6 @@ msgstr "Объединить после записи (в минутах)"
 
 msgid "Margin before recording (minutes)"
 msgstr "Объединить перед записью (в минутах)"
-
-msgid "Mark service as dedicated 3D service"
-msgstr "Маркировка сервиса как 3D сервис"
 
 msgid "Marshall Islands"
 msgstr "Marshall Islands"
@@ -11546,4 +11540,85 @@ msgstr "Swap Manager"
 # Storage device manager
 msgid "Storage device manager"
 msgstr "Диспетчер устройств хранения"
+
+# OPKG
+msgid "Select update source"
+msgstr "Выбрать источник обновления"
+
+# Contecst menu selector
+msgid "Show transponder info"
+msgstr "Показать информацию о транспондере"
+
+msgid "Set as startup service"
+msgstr "Назначить сервис стартовым при загрузке"
+
+msgid "Add service to bouquet"
+msgstr "Добавить сервис в букет"
+
+msgid "Add bouquet"
+msgstr "Добавить букет"
+
+msgid "Play as Picture in Picture"
+msgstr "Включить как Картинка в Картинке (PiP)"
+
+msgid "Stop using as startup service"
+msgstr "Прекратить использование в качестве службы запуска"
+
+msgid "Mark service as dedicated 3D service"
+msgstr "Отметить сервис как выделенный 3D сервис"
+
+msgid "Cover dashed flickering line for this service"
+msgstr "Cкрыть мигающую строку для этого сервиса"
+
+msgid "Add Biss Caid to service"
+msgstr "Добавить Biss Caid в сервис"
+
+msgid "Find currently playing service"
+msgstr "Найти текущий игровой сервис"
+
+msgid "Rename entry"
+msgstr "Переименовать выбранное"
+
+msgid "Remove entry"
+msgstr "Удалить выбранное"
+
+msgid "Enable move mode"
+msgstr "Включить режим перемещения"
+
+msgid "Add marker"
+msgstr "Добавить маркер"
+
+msgid "Enable bouquet edit"
+msgstr "Включить редактирование букета"
+
+msgid "Add alternatives"
+msgstr "Добавить альтернативы"
+
+msgid "Configuration"
+msgstr "Конфигурация"
+
+# Display setup
+
+msgid "Operating LED status while running."
+msgstr "Цвет LED-индикатора во время работы"
+
+msgid "Operating LED status in standby mode"
+msgstr "Цвет LED-индикатора в режиме ожидания"
+
+msgid "Operating LED status in deep standby mode"
+msgstr "Цвет LED-индикатора в режиме глубокого ожидания"
+
+msgid "Switch off the display during operation."
+msgstr "Выключить дисплей во время работы"
+
+msgid "Switch off the display during Standby Mode"
+msgstr "Выключить дисплей в режиме ожидания"
+
+msgid "Switch off the display during Suspend Mode"
+msgstr "Выключить дисплей в режиме глубокого ожидания"
+
+msgid "violet"
+msgstr "фиолетовый"
+
+
 
