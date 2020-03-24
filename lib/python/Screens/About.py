@@ -100,6 +100,14 @@ class About(Screen):
 		AboutText += hddinfo + "\n\n" + _("Network Info:")
 		for x in about.GetIPsFromNetworkInterfaces():
 			AboutText += "\n" + x[0] + ": " + x[1]
+			
+		AboutText += "\n"
+		AboutText += "\n"
+		
+		AboutText += _("Additional image information: ") + "\n"
+		AboutText += _("Idea: ") + about.getIdea() + "\n"
+		AboutText += _("E-mail: ") + about.getEmail() + "\n"
+		AboutText += _("Donate: ") + about.getDonate() + "\n"
 
 		self["AboutScrollLabel"] = ScrollLabel(AboutText)
 		self["key_green"] = Button(_("Translations"))
