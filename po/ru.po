@@ -11431,13 +11431,13 @@ msgid "Operating LED status in deep standby mode"
 msgstr "Цвет LED-индикатора в режиме глубокого ожидания"
 
 msgid "Switch off the display during operation."
-msgstr "Выключить дисплей во время работы"
+msgstr "Включить дисплей во время работы"
 
 msgid "Switch off the display during Standby Mode"
-msgstr "Выключить дисплей в режиме ожидания"
+msgstr "Включить дисплей в режиме ожидания"
 
 msgid "Switch off the display during Suspend Mode"
-msgstr "Выключить дисплей в режиме глубокого ожидания"
+msgstr "Включить дисплей в режиме глубокого ожидания"
 
 msgid "violet"
 msgstr "фиолетовый"
