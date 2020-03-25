@@ -11446,4 +11446,9 @@ msgstr "фиолетовый"
 msgid "Multiboot image selector"
 msgstr "Мультизагрузочный выбор имиджей"
 
+# AutoBouqetsMaker
+msgid "AutoBouqetsMaker"
+msgstr "Автоматическое создание букетов"
+
+
 
