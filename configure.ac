@@ -63,6 +63,9 @@ if test `echo "$BOXTYPE" | cut -b 1-2` == "dm"; then
 	AC_DEFINE(KEY_PLAY_ACTUALLY_IS_KEY_PLAYPAUSE, 1,[define when rc sends a KEY_PLAY event for its KEY_PLAYPAUSE key])
 fi
 
+AM_CONDITIONAL(EBOX5000, test `echo "$BOXTYPE" | cut -b 1-4` == "ebox5000")
+AM_CONDITIONAL(EBOX5100, test `echo "$BOXTYPE" | cut -b 1-4` == "ebox5100")
+
 AC_ARG_WITH(textlcd,
 	AC_HELP_STRING([--with-textlcd], [use ascii based lcd, yes or no]),
 	[[withtextlcd=$withval]],
