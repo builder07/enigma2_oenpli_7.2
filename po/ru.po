@@ -11446,6 +11446,9 @@ msgstr "фиолетовый"
 msgid "Multiboot image selector"
 msgstr "Мультизагрузочный выбор имиджей"
 
+msgid "Please set your time zone"
+msgstr "Пожалуйста, установите ваш часовой пояс"
+
 # Network Wizard & Network Browser
 
 msgid "MountManager"
