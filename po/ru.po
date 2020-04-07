@@ -711,10 +711,10 @@ msgid "Abort"
 msgstr "Прервать"
 
 msgid "About"
-msgstr "Информация"
+msgstr "Информация об имидже"
 
 msgid "About..."
-msgstr "Информация..."
+msgstr "Информация об имидже..."
 
 msgid "Accesspoint:"
 msgstr "Точка доступа:"
