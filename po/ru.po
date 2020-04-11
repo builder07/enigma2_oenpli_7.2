@@ -711,10 +711,10 @@ msgid "Abort"
 msgstr "Прервать"
 
 msgid "About"
-msgstr "Информация"
+msgstr "Информация об имидже"
 
 msgid "About..."
-msgstr "Информация..."
+msgstr "Информация об имидже..."
 
 msgid "Accesspoint:"
 msgstr "Точка доступа:"
@@ -8878,7 +8878,7 @@ msgid "Translation:"
 msgstr "Перевод:"
 
 msgid "Translations"
-msgstr "Переводы"
+msgstr "Перевод"
 
 msgid "Transmission mode"
 msgstr "Режим передачи"
@@ -11446,9 +11446,50 @@ msgstr "фиолетовый"
 msgid "Multiboot image selector"
 msgstr "Мультизагрузочный выбор имиджей"
 
-# AutoBouqetsMaker
-msgid "AutoBouqetsMaker"
-msgstr "Автоматическое создание букетов"
+msgid "Please set your time zone"
+msgstr "Пожалуйста, установите ваш часовой пояс"
 
+# Network Wizard & Network Browser
 
+msgid "MountManager"
+msgstr "Установки монтирования"
+
+msgid "Manage your network shares..."
+msgstr "Управление общими сетевыми ресурсами."
+
+msgid "Add new network mount point"
+msgstr "Добавить точку монтирования сети"
+
+msgid "Mountpoints management"
+msgstr "Управление точками монтирования"
+
+msgid "User management"
+msgstr "Управление пользователями"
+
+msgid "Change hostname"
+msgstr "Изменить имя хоста"
+
+msgid "Mount again"
+msgstr "Смонтировать снова"
+
+msgid "Attemt to recover lost mounts (in background)"
+msgstr "Попытка восстановить (в фоновом режиме)"
+
+msgid "NetworkBrowser"
+msgstr "Обозреватель сети"
+
+msgid "Search for network shares..."
+msgstr "Поиск общих сетевых ресурсов."
+
+msgid "Press OK to expand this host"
+msgstr "Нажмите ОК, чтобы развернуть этот хост"
+
+msgid "Press OK to select."
+msgstr "Нажмите OK, чтобы выбрать"
+
+msgid "Mounts management"
+msgstr "Управление монтированиями"
+
+msgid "Rescan"
+msgstr "Пересканировать"
 
