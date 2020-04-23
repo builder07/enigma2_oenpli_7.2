@@ -149,7 +149,7 @@ class Geolocation(Screen):
 	def __init__(self, session):
 		Screen.__init__(self, session)
 		self.setTitle(_("Geolocation"))
-		self.skinName = ["About", "Geolocation"]
+		
 		GeolocationText = _("Geolocation information") + "\n" + "\n"
 
 		continent = geolocation.get("continent", None)
