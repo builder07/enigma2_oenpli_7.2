@@ -144,7 +144,6 @@ class About(Screen):
 	def showTroubleshoot(self):
 		self.session.open(Troubleshoot)
 		
-#####
 class Geolocation(Screen):
 	def __init__(self, session):
 		Screen.__init__(self, session)
@@ -206,8 +205,6 @@ class Geolocation(Screen):
 				"up": self["AboutScrollLabel"].pageUp,
 				"down": self["AboutScrollLabel"].pageDown
 			})
-
-#####
 
 class TranslationInfo(Screen):
 	def __init__(self, session):
